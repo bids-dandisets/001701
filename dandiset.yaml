@@ -50,7 +50,7 @@ assetsSummary:
   - SpatialSeries
 citation: Aery Jones, Emily; Low, Isabel; Cho, Frances; Giocomo, Lisa (2026) Aery
   Jones et al (2026) Entorhinal cortex represents task-relevant remote locations independent
-  of CA1 (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001701/draft
+  of CA1 (Version 0.260120.0303) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001701/0.260120.0303
 contributor:
 - affiliation: []
   email: emily.aster.jones@gmail.com
@@ -128,12 +128,14 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-01-19T19:58:21.760625+00:00'
+datePublished: '2026-01-20T03:03:59.020450+00:00'
 description: "This dataset contains Neuropixels recordings from medial entorhinal
   cortex and hippocampus while mice learned a spatial match-to-sample task. Data includes
   spike times, LFP from select channels, trial information, 2D position, and head
   direction.\n"
+doi: 10.48324/dandi.001701/0.260120.0303
 ethicsApproval: []
-id: DANDI:001701/draft
+id: DANDI:001701/0.260120.0303
 identifier: DANDI:001701
 keywords:
 - entorhinal cortex
@@ -143,17 +145,29 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001701/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001701/0.260120.0303/assets.yaml
 name: Aery Jones et al (2026) Entorhinal cortex represents task-relevant remote locations
   independent of CA1
 protocol:
 - https://dx.doi.org/10.17504/protocols.io.e6nvwjo87lmk/v2
+publishedBy:
+  endDate: '2026-01-20T03:03:59.020450+00:00'
+  id: urn:uuid:3c7e976d-4af7-4d70-94cb-977667025554
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-01-20T03:03:59.020450+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:085fe20a-0b12-4b7a-b2e9-763c097b407f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 studyTarget:
 - Population representations in CA1 and MEC during immobility
-url: https://dandiarchive.org/dandiset/001701/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001701/0.260120.0303
+version: 0.260120.0303
 wasGeneratedBy: []
