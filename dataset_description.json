@@ -1,0 +1,22 @@
+{
+    "Name": "Aery Jones et al (2026) Entorhinal cortex represents task-relevant remote locations independent of CA1",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "This dataset contains Neuropixels recordings from medial entorhinal cortex and hippocampus while mice learned a spatial match-to-sample task. Data includes spike times, LFP from select channels, trial information, 2D position, and head direction.\n",
+    "DatasetType": "raw",
+    "Authors": [
+        "Aery Jones, Emily",
+        "Low, Isabel",
+        "Cho, Frances",
+        "Giocomo, Lisa"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.11.2.dev15+g782176cb1",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
