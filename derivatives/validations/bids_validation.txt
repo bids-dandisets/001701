@@ -1,0 +1,115 @@
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.
+		sampling_frequency
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_channels.json - Format "string" must be number
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_channels.json - Format "string" must be number
+
+		216 more files with the same issue
+
+		gain
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_channels.json - Format "string" must be number
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_channels.json - Format "string" must be number
+
+		112 more files with the same issue
+
+		x
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_electrodes.json - Format "string" must be number
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_electrodes.json - Format "string" must be number
+
+		216 more files with the same issue
+
+		y
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_electrodes.json - Format "string" must be number
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_electrodes.json - Format "string" must be number
+
+		216 more files with the same issue
+
+		impedance
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_electrodes.json - Format "string" must be number
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_electrodes.json - Format "string" must be number
+
+		216 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.
+
+	[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.
+		Manufacturer
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+
+		216 more files with the same issue
+
+		RecordingDuration
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+
+
+		216 more files with the same issue
+
+		RecordingType
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+
+		216 more files with the same issue
+
+		BodyPart
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+
+
+		216 more files with the same issue
+
+		BodyPartDetails
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+
+		/sub-TopHat/ses-TopHatDY02-g1/ecephys/sub-TopHat_ses-TopHatDY02-g1_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+
+
+		216 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
+		session_id
+		/sub-TopHat/sub-TopHat_sessions.tsv - 'ses-TopHatDY01-g1'
+		/sub-Lovelace/sub-Lovelace_sessions.tsv - 'ses-LovelaceDY01-g1'
+
+		10 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
+
+	[ERROR] INVALID_ENTITY_LABEL entity label doesn't match format found for files with this suffix
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_ecephys.json - entity: ses label: TopHatDY03-g1 pattern: [0-9a-zA-Z+]+
+		/sub-TopHat/ses-TopHatDY03-g1/ecephys/sub-TopHat_ses-TopHatDY03-g1_channels.tsv - entity: ses label: TopHatDY03-g1 pattern: [0-9a-zA-Z+]+
+
+		1742 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=INVALID_ENTITY_LABEL for existing conversations about this issue.
+
+
+          Summary:                            Available Tasks:        Available Modalities:
+          1771 Files, 11.1 MB                                         microephys           
+          12 - Subjects 218 - Sessions                                                     
+
+	If you have any questions, please post on https://neurostars.org/tags/bids.
