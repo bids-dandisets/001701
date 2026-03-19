@@ -1,13 +1,13 @@
-participant_id	species	sex	strain
-sub-AppleBottom	Mus musculus	F	C57BL/6
-sub-BaggySweatpants	Mus musculus	M	C57BL/6
-sub-Curie	Mus musculus	M	C57BL/6
-sub-Franklin	Mus musculus	M	C57BL/6
-sub-Lamarr	Mus musculus	F	C57BL/6
-sub-Lovelace	Mus musculus	M	C57BL/6
-sub-Noether	Mus musculus	F	C57BL/6
-sub-Payne	Mus musculus	F	C57BL/6
-sub-StickPin	Mus musculus	M	C57BL/6
-sub-StrappyReeboks	Mus musculus	M	C57BL/6
-sub-TopCoat	Mus musculus	F	C57BL/6
-sub-TopHat	Mus musculus	F	C57BL/6
+participant_id	original_participant_id	species	sex	strain
+sub-AppleBottom	sub-AppleBottom	Mus musculus	F	C57BL/6
+sub-BaggySweatpants	sub-BaggySweatpants	Mus musculus	M	C57BL/6
+sub-Curie	sub-Curie	Mus musculus	M	C57BL/6
+sub-Franklin	sub-Franklin	Mus musculus	M	C57BL/6
+sub-Lamarr	sub-Lamarr	Mus musculus	F	C57BL/6
+sub-Lovelace	sub-Lovelace	Mus musculus	M	C57BL/6
+sub-Noether	sub-Noether	Mus musculus	F	C57BL/6
+sub-Payne	sub-Payne	Mus musculus	F	C57BL/6
+sub-StickPin	sub-StickPin	Mus musculus	M	C57BL/6
+sub-StrappyReeboks	sub-StrappyReeboks	Mus musculus	M	C57BL/6
+sub-TopCoat	sub-TopCoat	Mus musculus	F	C57BL/6
+sub-TopHat	sub-TopHat	Mus musculus	F	C57BL/6
